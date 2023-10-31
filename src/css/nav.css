@@ -1,0 +1,56 @@
+/* list item styling */
+.listStyle{
+    color:white;
+    transition: 0.3s;
+    position: relative;
+    z-index: 1;
+    padding:1rem;
+}
+.listStyle:hover{
+    border-radius:5%;
+    cursor:pointer;
+}
+
+.listStyle::before{
+    content:'';
+    position: absolute;
+    height:3px;
+    bottom:0;
+    left:0;
+    right:0;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(0);
+    /* transform-origin: left; */
+
+}
+.listStyle:hover::before{
+    background-color: white;
+    transform: scale(1);
+
+}
+
+
+/* Unordered list styling */
+.ulStyle{
+    list-style: none;
+        display: flex;
+        height: 4rem;
+        color: white;
+        align-items:center;
+        justify-content: space-around;
+        font-size:20px;
+        background-color:black;
+}
+
+
+/* navigation bar styling */
+.navStyle{
+    width: 100vw;
+    position:sticky;
+    top:0,
+}
+
+/* anchor tag styling */
+a{
+    text-decoration: none;
+}

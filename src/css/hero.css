@@ -1,0 +1,40 @@
+.heroContainer{
+    position:fixed;
+    /* z-index: -1; */
+    height: 40vh;
+    box-shadow: 4px 4px 1rem blue;
+}
+
+.myImage{
+    height:auto;
+    border:0.3rem solid rgba(255, 255, 255, 0.169);
+    width:10rem;
+    border-radius:20%;
+}
+
+.name{
+    font-size:1.7rem;
+    -webkit-text-stroke: 0.02rem black;
+    /* color:rgb(239, 81, 81); */
+    color:white;
+    text-shadow:2px 0px black;
+    border-bottom:3px solid black;
+}
+
+.frontEnd{
+    font-size: 1.7rem;
+    -webkit-text-stroke: 0.02rem black;
+    /* color:rgb(239, 81, 81); */
+    color:white;
+    text-shadow:2px 0px black;
+    border-bottom:3px solid black;
+    
+}
+
+.herodiv{
+    color:rgb(0, 0, 0);
+}
+
+.name:hover{
+    color:red;
+}
